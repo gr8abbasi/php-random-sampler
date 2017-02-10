@@ -1,0 +1,21 @@
+{
+    "name": "abbasi/php-skeleton-app",
+    "description": "Skeleton PHP application to start developing new PHP package right away.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Kashif Abbasi",
+            "email": "gr8.abbasi@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "package\\name\\": "src",
+            "Tests\\": "tests"
+        }
+    }
+}
