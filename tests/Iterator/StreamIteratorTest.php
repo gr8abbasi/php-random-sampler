@@ -55,7 +55,7 @@ class StreamIteratorTest extends PHPUnit_Framework_TestCase
 
         $iterator = new StreamIterator($file->url());
 
-        $result = $this->getResults($iterator);
+        $this->getResults($iterator);
     }
 
     /**
@@ -66,7 +66,7 @@ class StreamIteratorTest extends PHPUnit_Framework_TestCase
     {
         $iterator = new StreamIterator('invalid-file');
 
-        $result = $this->getResults($iterator);
+        $this->getResults($iterator);
     }
 
     /**

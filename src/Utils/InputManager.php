@@ -10,11 +10,6 @@ use Symfony\Component\Console\Input\ArgvInput;
 class InputManager
 {
     /**
-     * @var string
-     */
-    private $userInput;
-
-    /**
      * @var int
      */
     private $size;
@@ -29,8 +24,8 @@ class InputManager
      */
     public function __construct(ArgvInput $argvInput)
     {
-        $this->size = $argvInput->getParameterOption(['--size', '-s'], 5);
-        $this->is_random = $argvInput->getParameterOption(['--random', '-r'], 0);
+        $this->size = $argvInput->getParameterOption(['--size', '-s']);
+        $this->is_random = $argvInput->getParameterOption(['--random', '-r']);
     }
 
     /**
