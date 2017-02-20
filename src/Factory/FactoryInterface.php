@@ -8,8 +8,6 @@ namespace Stream\Sampler\Factory;
 interface FactoryInterface
 {
     /**
-     * @param string $id
-     *
      * @return mixed Service
      */
     public function create();

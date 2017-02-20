@@ -8,10 +8,9 @@ namespace Stream\Sampler\Utils;
 class RandomGenerator
 {
     const DEFAULT_SIZE = 2000;
+
     /**
      * Generates Random String
-     *
-     * @param int $size
      *
      * @return string
      */

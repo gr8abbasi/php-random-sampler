@@ -2,9 +2,9 @@
 
 namespace tests\Iterator;
 
-use org\bovigo\vfs\vfsStream;
 use PHPUnit_Framework_TestCase;
 use Stream\Sampler\Iterator\StreamIterator;
+use org\bovigo\vfs\vfsStream;
 
 /**
  * StreamIterator Test

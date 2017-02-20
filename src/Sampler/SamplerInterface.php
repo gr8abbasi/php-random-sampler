@@ -10,7 +10,7 @@ interface SamplerInterface
     /**
      * @param int $size
      *
-     * @return array
+     * @return string
      */
      public function getSample($size);
 }
