@@ -1,6 +1,6 @@
 {
-    "name": "abbasi/php-skeleton-app",
-    "description": "Skeleton PHP application to start developing new PHP package right away.",
+    "name": "abbasi/stream-sampler",
+    "description": "Stream sampler",
     "license": "MIT",
     "authors": [
         {
@@ -8,13 +8,17 @@
             "email": "gr8.abbasi@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "symfony/console": "^3.2"
+    },
     "require-dev": {
-        "phpunit/phpunit": "4.8.*"
+        "phpunit/phpunit": "4.8.*",
+        "mikey179/vfsStream": "1.3.*",
+        "bro/code": "^0.1.5"
     },
     "autoload": {
         "psr-4": {
-            "package\\name\\": "src",
+            "Stream\\Sampler\\": "src",
             "Tests\\": "tests"
         }
     }
