@@ -1,4 +1,4 @@
-# Random Sampler (Reservoir Sampling)
+# Random Sampler (Reservoir Sampling) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gr8abbasi/php-random-sampler/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gr8abbasi/php-random-sampler/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/gr8abbasi/php-random-sampler/badges/build.png?b=master)](https://scrutinizer-ci.com/g/gr8abbasi/php-random-sampler/build-status/master)
 
 Random Sampler or [Reservoir Sampling](https://en.wikipedia.org/wiki/Reservoir_sampling) (which is algorithm used to achieve desired results) is a Command Line (CLI) application which provides a convinient and memory efficient way of generating random samples when there is unkonw and huge size of data stream is going through. When you are not sure how long stream could be and keeping samples random as much as possible, here this Reservoir Sampling algorithm (from University Studies) come to rescue me. :)
 
