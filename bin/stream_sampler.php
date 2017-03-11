@@ -3,11 +3,11 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Stream\Sampler\Factory\InputManagerFactory;
+use Stream\Sampler\Factory\CliInputFactory;
 use Stream\Sampler\Factory\StreamSamplerFactory;
 use Stream\Sampler\Factory\IteratorFactory;
 
-$input  = (new InputManagerFactory())->create();
+$input  = (new CliInputFactory())->create();
 $data = $input->getInputData();
 
 $iterator = (new IteratorFactory($data))->create();

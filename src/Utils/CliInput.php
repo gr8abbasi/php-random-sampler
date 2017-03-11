@@ -5,9 +5,9 @@ namespace Stream\Sampler\Utils;
 use Symfony\Component\Console\Input\ArgvInput;
 
 /**
- * CLI InputManager
+ * CLI Input
  */
-class InputManager
+class CliInput implements InputInterface
 {
     /**
      * @var int
@@ -29,9 +29,7 @@ class InputManager
     }
 
     /**
-     * Format CLI input
-     *
-     * @return array
+     * {@inheritdoc}
      */
     public function getInputData()
     {
