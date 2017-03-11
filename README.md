@@ -17,7 +17,9 @@ You can run sampler from command line by running:
 You can pipe any output from CLI to the sampler e.g. Linux urandom to get data as below: 
 
 ```dd if=/dev/urandom count=100 bs=1MB | base64 | ./bin/stream_sampler.php -s 5```
+-s is size of desired sample e.g. ABCDE for -s 5
 
 ## Random String
 
 ```./bin/stream_sampler.php -s 11 -r 1```
+-r indicates thats you want to generate samples from random string
